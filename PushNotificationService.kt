@@ -45,7 +45,7 @@ class PushNotificationService : FirebaseMessagingService() {
         } else {
             builder.setContentTitle(title)
                     .setContentText(message)
-                    .setSmallIcon(R.drawable.logo)
+                    .setSmallIcon(R.drawable."your icon name for custom notification icon")
         }
         val notificationManager = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
