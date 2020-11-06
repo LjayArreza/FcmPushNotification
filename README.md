@@ -23,6 +23,19 @@ Firebase Cloud Messaging Push Notification with Php Api
 - [x] Send notification to all devices.
 - [x] Send notication to single device.
 
+## PHP API Implementation
+
+Step 1: Download [Xampp](https://www.apachefriends.org/download.html)
+
+Step 2: Open Xampp and create "fcm" folder under htdocs folder.
+
+Step 3: Copy and paste sendnotif.php under "fcm" folder.
+
+Step 4: Run Xampp.
+
+Step 5: Run on your browser to send a notification 
+   - localhost/fcm/sendnotif.php?title=Your Notification Title&message=Your Notification Message
+
 ## Requirements
 
 - [x] At least android studio version 3.0
@@ -35,7 +48,7 @@ Firebase Cloud Messaging Push Notification with Php Api
  Step 2: Download send.php file
  
  Step 3: Setup firebase cloud messaging on your android studio ( Open android studio > Tools > Firebase > Cloud Messaging )
- 
+  
  Step 4: Create android package and name it "FirebaseMessaging"
  
  Step 5: Drag or import the PushNotification.kt or PushNotification.java to FirebaseMessaging package.
